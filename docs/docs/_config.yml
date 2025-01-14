@@ -1,0 +1,20 @@
+title: Jira Extension Stats
+description: Statistics for Jira Extension
+baseurl: "/jira-extension-stats"
+url: "https://h-p-c.github.io"
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Enable raw file serving
+include:
+  - "*.json"
+  - "*.html"
